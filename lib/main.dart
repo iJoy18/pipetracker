@@ -44,7 +44,7 @@ class PipeSizeSystem {
         case PipeLineType.liquid:
           return ["1/4\"", "3/8\"", "1/2\"", "5/8\""].contains(name) ? "19mm" : "25mm";
         case PipeLineType.suction:
-          return ["1/4\"", "3/8\"", "1/2\"", "5/8\""].contains(name) ? "9mm" : "25mm";
+          return ["1/4\"", "3/8\"", "1/2\"", "5/8\""].contains(name) ? "19mm" : "25mm";
         case PipeLineType.discharge:
           return "32mm";
       }
